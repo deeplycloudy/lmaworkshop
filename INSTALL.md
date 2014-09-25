@@ -25,36 +25,46 @@ Result is something like
 
 Install stuff needed for LMA analysis
 -------------------------------------
+```
 pip install pyproj
 pip install pupynere
+```
 
 Create a working directory for source code:
+```
 cd ~
 mkdir code
+```
 
 Add the directory you created above to your PYTHONPATH
-Edit .bash_profile in your home directory:
-export PYTHONPATH=/Users/ebruning/code/:$PYTHONPATH
+Edit `.bash_profile` in your home directory:
+
+```export PYTHONPATH=/Users/ebruning/code/:$PYTHONPATH```
 
 Install lmatools:
 From within the code directory:
-git clone https://github.com/deeplycloudy/lmatools.git
+
+```git clone https://github.com/deeplycloudy/lmatools.git```
 
 Try starting iPython
-ipython
+
+`ipython`
+
 and then import lmatools:
-import lmatools
+
+`import lmatools`
 
 If that import works,
+```
 cd code
 git clone https://github.com/deeplycloudy/stormdrain.git
 git clone https://github.com/deeplycloudy/brawl4d.git
+```
 
-Process sample data included with lmatools
+Process and view sample data included with lmatools
+```
 python ~/code/lmatools/testing/test_sklearn.py /path/to/output/files/
-
 cd brawl4d/notebooks
 ipython notebook
-Click on LMAGui3D
-Edit the data_path in the second cell to include /path/to/output/files/ as defined above
-Run all the cells prior to the "Charge Analysis" and try interacting with the plot.
+```
+Click on LMAGui3D. Edit the data_path in the second cell to include /path/to/output/files/ as defined above. Run all the cells prior to the "Charge Analysis" and try interacting with the plot.
