@@ -8,19 +8,22 @@ You probably have to log out and log back in if you're on a Mac at this point - 
 
 Install Anaconda (free download):
 https://store.continuum.io/cshop/anaconda/
+
 Installation Instructions:
 http://docs.continuum.io/anaconda/index.html#installation-instructions
 
 If you're on Linux and download the anaconda.sh script, you will need to chmod u+x anaconda.sh
 
 From a Terminal, update to latest packages:
+```
 conda update conda
 conda update anaconda
+```
 
 Check to make sure the Anaconda is on your path:
-which pip
+```which pip```
 Result is something like
-/Users/ebruning/anaconda/bin/pip
+``/Users/ebruning/anaconda/bin/pip```
 
 
 Install stuff needed for LMA analysis
@@ -68,3 +71,9 @@ cd brawl4d/notebooks
 ipython notebook
 ```
 Click on LMAGui3D. Edit the data_path in the second cell to include /path/to/output/files/ as defined above. Run all the cells prior to the "Charge Analysis" and try interacting with the plot.
+
+Further reading
+---------------
+There is also documentation for brawl4d, the xlma-like data browser, and its underlying plumbing, stormdrain, at:
+- http://brawl4d.readthedocs.org/en/latest/
+- http://stormdrain.readthedocs.org/en/latest/
