@@ -22,8 +22,7 @@ conda update anaconda
 
 Check to make sure the Anaconda is on your path:
 ```which pip```
-Result is something like
-``/Users/ebruning/anaconda/bin/pip```
+Result is something like `/Users/ebruning/anaconda/bin/pip`.
 
 
 Install stuff needed for LMA analysis
