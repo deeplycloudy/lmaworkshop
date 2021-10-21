@@ -21,7 +21,7 @@ conda env create environment.yml
 conda activate lmatracer
 pip install -e .
 
-conda install -c conda-forge ipympl matplotlib ipywidgets cartopy jupyter jupyterlab
+conda install -c conda-forge ipympl matplotlib ipywidgets cartopy jupyter jupyterlab metpy
 
 cd ..
 cd lmaworkshop
