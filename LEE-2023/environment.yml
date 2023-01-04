@@ -1,0 +1,25 @@
+name: leelma
+channels:
+- conda-forge
+- defaults
+dependencies:
+- hdf5
+- netcdf4
+- numpy
+- pandas
+- pip
+- python=3.10
+- scipy
+- xarray
+- pyproj
+- scikit-learn
+- ipympl
+- matplotlib
+- ipywidgets
+- cartopy
+- metpy
+- jupyter
+- jupyterlab
+- nb_conda_kernels
+- pip:
+  - git+https://github.com/deeplycloudy/xlma-python.git
