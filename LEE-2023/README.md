@@ -6,9 +6,9 @@ Effect Electrification field campaign that took place from Nov 2022-Jan
 
 ## Setup instructions
 
-If you don't already have conda, install Python and conda [according to Unidata's instructions](https://unidata.github.io/python-training/).
+If you don't already have Python and conda, install them [according to Unidata's instructions](https://unidata.github.io/python-training/). You do *not* need to follow the instructions in the *Setup the Environment* section, except for the part that mentions how to install git. Just *Installing Conda*. However, there is no harm in going further, and it will have you all set to use Unidata's training, which is great for lots of other meteorological map-making!
 
-You do *not* need to follow the instructions in the *Setup the Environment* section. Just *Installing Conda*. However, there is no harm in going further, and it will have you all set to use Unidata's training, which is great!
+If you already have Python and conda, just reuse that installation starting with the instructions below. We will create an entirely separate conda environment for this workshop, so it shouldn't conflict with things you've already installed. You will also need to install git, which can also be done with `conda install git`, as in the Unidata instructions.
 
 Once you have conda,
 
