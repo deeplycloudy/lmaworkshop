@@ -23,7 +23,7 @@ git clone https://github.com/deeplycloudy/lmaworkshop.git
 
 cd lmaworkshop
 cd LEE-2023
-conda env create environment.yml
+conda env create -f environment.yml
 ```
 
 These steps create a conda environment called `leelma`. Every time you 
