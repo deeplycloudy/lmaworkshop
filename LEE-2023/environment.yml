@@ -21,5 +21,8 @@ dependencies:
 - jupyter
 - jupyterlab
 - nb_conda_kernels
+- arm_pyart
+- boto3
 - pip:
+  - nexradaws
   - git+https://github.com/deeplycloudy/xlma-python.git
